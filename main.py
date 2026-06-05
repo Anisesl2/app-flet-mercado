@@ -1,3 +1,14 @@
+import os
+import flet as ft
+# ... tus otros imports ...
+
+def main(page: ft.Page):
+    # ... tu código actual ...
+
+if __name__ == "__main__":
+    # Esto es crucial: escucha en el puerto que te da Railway o usa el 8080
+    port = int(os.environ.get("PORT", 8080))
+    ft.app(target=main, port=port, view=ft.AppView.WEB_BROWSER)
 import flet as ft
 import yfinance as yf
 import time
@@ -98,3 +109,14 @@ ft.app(target=main)
 # Usa esto para que sea compatible con web:
 if __name__ == "__main__":
     ft.app(target=main, view=ft.AppView.WEB_BROWSER)
+    import os
+import flet as ft
+# ... tus otros imports ...
+
+def main(page: ft.Page):
+    # ... tu código actual ...
+
+if __name__ == "__main__":
+    # Esto es crucial: escucha en el puerto que te da Railway o usa el 8080
+    port = int(os.environ.get("PORT", 8080))
+    ft.app(target=main, port=port, view=ft.AppView.WEB_BROWSER)
