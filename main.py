@@ -19,7 +19,7 @@ def main(page: ft.Page):
 
     # Cabecera
     page.add(
-        ft.Text("🚀 MERCADO EN DIRECTO", size=24, weight="bold"),
+        ft.Text("🚀 SP500 TOP 10 Programado por Raul.R", size=24, weight="bold"),
         panel_estado, 
         ft.Divider(height=20, color="white24")
     )
