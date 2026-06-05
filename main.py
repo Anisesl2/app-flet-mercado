@@ -5,7 +5,7 @@ import time
 import threading
 
 def main(page: ft.Page):
-    page.title = "Top 10 S&P 500"
+    page.title = "Top 10 S&P 500 Programado por Raul.R"
     page.theme_mode = "dark"
     page.padding = 20
     # Ajustamos el tamaño para que sea responsivo en móvil
